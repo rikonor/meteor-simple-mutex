@@ -10,7 +10,8 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use([
     'ecmascript',
-    'dburles:collection-helpers'
+    'dburles:collection-helpers',
+    'dburles:mongo-collection-instances'
   ]);
   api.addFiles('lib/simple-mutex.js');
 });
