@@ -5,7 +5,7 @@
 This is a simple implementation of a locking mechanism for a Meteor app.
 
 #### Caveats
-It operates under the assumption that there is only one entity performing locking/unlocking operations - this means it should not be relied upon when working with more then one Meteor server.
+It operates under the assumption that there is only one entity performing locking/unlocking operations - this means it should not be relied upon when working with more than one Meteor server.
 
 #### Installation
 
